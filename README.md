@@ -1,0 +1,18 @@
+### Merging-Conflicts
+- create a local repo using `git init`
+- add a readme file into it and commit your changes `git commit -am 'first commit'`
+- now create a new branch `git branch firstbranch` to get the latest node or changes.
+- now switch to the new branch `git checkout newbranch`
+- add some text to the readme file and commit `git commit -am 'some comments'`
+- now switch to the `secondbranch` using `git checkout secondbranch`
+- In the `secondbranch` modify the same readme file
+- commit your changes `git commit -am 'second branch work'`
+- now switch back to the main branch to merge the work of firs and second branches.
+- if you merge first the first branch using `git merge firstbranch` there will be now problem in it.
+- but as you will try to merge the second branch using `git merge secondbranch` you will get an error. `Automatic merge failed, fix conflicts and then commit the result`.
+- Changes statred with `<<<<<<< HEAD` are the current status of the `main branch` and after `=======` will be the changes comming from `otherbranch` and `>>>>>>> branchname ` will be the end of conflic. you could have multiple conflicts in one file.
+- Now select the work that you want to keep and delete the other work manually because automatic merge was failed. 
+-  Then add and commit to store the changes.
+- Don't forget to delete the branch because it will have still the old snapshot of the repo and if you tried to merge again then conflict will be there again.
+- so first delete the branch and the create a new branch to start new work. 
+- it is very important.
