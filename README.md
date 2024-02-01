@@ -16,3 +16,6 @@
 - Don't forget to delete the branch because it will have still the old snapshot of the repo and if you tried to merge again then conflict will be there again.
 - so first delete the branch and the create a new branch to start new work. 
 - it is very important.
+- How to check the remote origin `git remote -v`
+- How to remove remote origin `git remote remove origin`
+- How to add the remote origin `git remote add origin git@github.com:atherahmad/conflicts.git`
