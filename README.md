@@ -19,4 +19,5 @@
 - How to check the remote origin `git remote -v`
 - How to remove remote origin `git remote remove origin`
 - How to add the remote origin `git remote add origin git@github.com:atherahmad/conflicts.git`
+- work by ahmad
 - work by ather
